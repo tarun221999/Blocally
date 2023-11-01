@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="mjK-JX-P50">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoForSplash" translatesAutoresizingMaskIntoConstraints="NO" id="sys-hR-EOH">
+                    <rect key="frame" x="87.5" y="308.5" width="200.5" height="50.5"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="mjK-JX-P50" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5md-Na-5MI"/>
+                <constraint firstItem="sys-hR-EOH" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="7Vp-A7-Qgb"/>
+                <constraint firstAttribute="bottom" secondItem="mjK-JX-P50" secondAttribute="bottom" id="7dO-wv-0Gj"/>
+                <constraint firstItem="mjK-JX-P50" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="A2M-Cl-8mO"/>
+                <constraint firstItem="sys-hR-EOH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DIe-Yd-vgL"/>
+                <constraint firstAttribute="trailing" secondItem="mjK-JX-P50" secondAttribute="trailing" id="EZM-XD-bkY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="-5.625" y="36.971830985915496"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logoForSplash" width="200.5" height="50.5"/>
+        <image name="splash" width="375" height="812"/>
+    </resources>
+</document>

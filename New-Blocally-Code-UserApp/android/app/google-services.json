@@ -1,0 +1,131 @@
+{
+  "project_info": {
+    "project_number": "845562336230",
+    "firebase_url": "https://blocally.firebaseio.com",
+    "project_id": "blocally",
+    "storage_bucket": "blocally.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845562336230:android:0ed41300c02857bbfa3c27",
+        "android_client_info": {
+          "package_name": "de.blocally.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845562336230-47er8ag7qpetbrk5p243l0amd3980ij8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.blocally.app",
+            "certificate_hash": "d7b53fe1c056c3f1ca222ffa6a57b256adb0ffa7"
+          }
+        },
+        {
+          "client_id": "845562336230-aqg3otg0289egdfomvgjohblfnetmiv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.blocally.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "845562336230-emll8togf9lma2a5coq91on0honcbf6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.blocally.app",
+            "certificate_hash": "363f74c490c7c50bc75a725bac97639f405775c9"
+          }
+        },
+        {
+          "client_id": "845562336230-u28vs8ldkudd3i8qmagdtrikcusps3s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmVCHNNx5LhjnDuODFbqw-KTlAeSOeypI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845562336230-u28vs8ldkudd3i8qmagdtrikcusps3s2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "845562336230-7b1ue009bkfvfs6j8ti3hg2qnlpadiip.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "de.blocally.ent"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845562336230:android:7ecb6ffc069c679dfa3c27",
+        "android_client_info": {
+          "package_name": "de.blocally.entrepreneur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845562336230-afru4t7a995ddhv0fdkq298n12t4jmf4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.blocally.entrepreneur",
+            "certificate_hash": "363f74c490c7c50bc75a725bac97639f405775c9"
+          }
+        },
+        {
+          "client_id": "845562336230-bld7u116tpl2ip4ng8oor2v8r6pjsblp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.blocally.entrepreneur",
+            "certificate_hash": "b2b68a50415725c75d48f85de3912b7f986353ef"
+          }
+        },
+        {
+          "client_id": "845562336230-itcpqoafob5vmbdkud12tdd8cs7t0fnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.blocally.entrepreneur",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "845562336230-u28vs8ldkudd3i8qmagdtrikcusps3s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmVCHNNx5LhjnDuODFbqw-KTlAeSOeypI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845562336230-u28vs8ldkudd3i8qmagdtrikcusps3s2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "845562336230-7b1ue009bkfvfs6j8ti3hg2qnlpadiip.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "de.blocally.ent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

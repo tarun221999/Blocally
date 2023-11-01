@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashScreen" translatesAutoresizingMaskIntoConstraints="NO" id="DCO-TH-NoU">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoForSplash" translatesAutoresizingMaskIntoConstraints="NO" id="6Z5-Kc-oLw">
+                    <rect key="frame" x="87" y="298" width="201" height="51"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="DCO-TH-NoU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UBW-nh-Cuk"/>
+                <constraint firstItem="DCO-TH-NoU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cAv-4F-6lH"/>
+                <constraint firstAttribute="bottom" secondItem="DCO-TH-NoU" secondAttribute="bottom" id="l5e-ed-miD"/>
+                <constraint firstItem="6Z5-Kc-oLw" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="l7d-AX-ht8"/>
+                <constraint firstAttribute="trailing" secondItem="DCO-TH-NoU" secondAttribute="trailing" id="tjz-8S-i5a"/>
+                <constraint firstItem="6Z5-Kc-oLw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vwk-3c-OUe"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logoForSplash" width="200.5" height="50.5"/>
+        <image name="splashScreen" width="375" height="812"/>
+    </resources>
+</document>
