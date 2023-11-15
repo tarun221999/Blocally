@@ -99,7 +99,7 @@ android {
         applicationId "de.blocally.entrepreneur"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 20
+        versionCode 21
         versionName "1.0"
         missingDimensionStrategy 'react-native-camera', 'general' // added line for react-native-camera
     }

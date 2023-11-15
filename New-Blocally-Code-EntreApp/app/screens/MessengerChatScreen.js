@@ -89,7 +89,6 @@ export default class MessageScreen extends Component {
                 appointmentDateTime: appointmentDateTime,
             }
             hitApi(urls.MANAGE_APPOINTMENT, urls.POST, params, this.showModalLoader, (jsonResponse) => {
-                console.log('resT',jsonResponse.response)
                 this.setState({
                     showAppointmentDetailPopup: false,
 
